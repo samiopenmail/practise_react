@@ -1,14 +1,14 @@
-import D from './data.json'
-const title="this is title name";
+
+
 function Card(props){  
-  const {Title,Desc}=props;
+  const {title,description}=props;
 
   return   (
-  <div>
+  <div className='BorderStyle'>
 
-    <h1 className='headingStyle'>{D[0].title}</h1>
-    <p>{D[0].description}</p>
-    <p>Footer of the card</p>
+    <h1 className='headingStyle'>{title}</h1>
+    <p>{description}</p>
+    <p > Footer of the card</p>
     <h2>Call BKB</h2>
     
   </div>)
