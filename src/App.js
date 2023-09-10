@@ -3,7 +3,7 @@ import D from './components/data.json'
 import CardClass from './components/CardClass'
 import  STATE from './STATE'
 function App(){
-
+// Addred from pc
 
   return (
     <div>
