@@ -6,7 +6,7 @@ import Index from "./components/conditionalrendering/Indexfile";
 import FORMfunBased from './components/formlearn/FormFunctionBased'
 import FormClassBased from './components/formlearn/FormClassBased'
 import Child from './components/child'
-
+import Form3exercise from "./components/formlearn/Form3exercise";
 function App(){
 // Addred from pc
 const handleChildData=(e)=>{
@@ -27,6 +27,8 @@ const handleChildData=(e)=>{
     <FormClassBased/>
     <hr/><h1>Child to parent data passing</h1><br/>
     <Child Datawala={handleChildData}/>
+    <hr/><h1>Form exercise</h1><br/>
+    <Form3exercise/>
 
 
 
