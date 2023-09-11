@@ -3,6 +3,8 @@ import D from './components/data.json'
 import CardClass from './components/CardClass'
 import  STATE from './STATE'
 import Index from "./components/conditionalrendering/Index";
+import FORMfunBased from './components/formlearn/FormFunctionBased'
+import FormClassBased from './components/formlearn/FormClassBased'
 function App(){
 // Addred from pc
 
@@ -13,7 +15,14 @@ function App(){
     <STATE/>
     <hr/><br/>
     <Index/>
+
+    <hr/><h1>form learn</h1><br/>
+    <FORMfunBased/>
+    <hr/><h1>FormClassBasedLearn</h1><br/>
+    <FormClassBased/>
     </div>
+    
+    
   );
 }
 export default App;
