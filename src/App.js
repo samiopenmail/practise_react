@@ -2,11 +2,16 @@ import Card from "./components/Card";
 import D from './components/data.json'
 import CardClass from './components/CardClass'
 import  STATE from './STATE'
-import Index from "./components/conditionalrendering/Index";
+import Index from "./components/conditionalrendering/Indexfile";
 import FORMfunBased from './components/formlearn/FormFunctionBased'
 import FormClassBased from './components/formlearn/FormClassBased'
+import Child from './components/child'
+
 function App(){
 // Addred from pc
+const handleChildData=(e)=>{
+  console.log("this is App.js and"+e);
+}
 
   return (
     <div>
@@ -20,6 +25,11 @@ function App(){
     <FORMfunBased/>
     <hr/><h1>FormClassBasedLearn</h1><br/>
     <FormClassBased/>
+    <hr/><h1>Child to parent data passing</h1><br/>
+    <Child Datawala={handleChildData}/>
+
+
+
     </div>
     
     
