@@ -7,6 +7,7 @@ import FORMfunBased from './components/formlearn/FormFunctionBased'
 import FormClassBased from './components/formlearn/FormClassBased'
 import Child from './components/child'
 import Form3exercise from "./components/formlearn/Form3exercise";
+import Formikform from "./components/formlearn/formikform";
 function App(){
 // Addred from pc
 const handleChildData=(e)=>{
@@ -29,7 +30,8 @@ const handleChildData=(e)=>{
     <Child Datawala={handleChildData}/>
     <hr/><h1>Form exercise</h1><br/>
     <Form3exercise/>
-
+    <hr/><h1>Learn formik form</h1><br/>
+    <Formikform/>
 
 
     </div>

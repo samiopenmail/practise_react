@@ -2,8 +2,10 @@ import React, { useState } from 'react'
 function Form3exercise() {
     const [name,setName]=useState('');
     const handleSubmit=(e)=>{
-        console.log(name);
+        
         e.preventDefault();
+        const newuser={name};
+        console.log(newuser);
     }
     const handleName=(e)=>{
         setName(e.target.value);
