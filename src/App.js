@@ -8,6 +8,8 @@ import FormClassBased from './components/formlearn/FormClassBased'
 import Child from './components/child'
 import Form3exercise from "./components/formlearn/Form3exercise";
 import Formikform from "./components/formlearn/formikform";
+//Todo app
+import TodoHome from "./components/Todo/TodoHome";
 function App(){
 // Addred from pc
 const handleChildData=(e)=>{
@@ -32,6 +34,8 @@ const handleChildData=(e)=>{
     <Form3exercise/>
     <hr/><h1>Learn formik form</h1><br/>
     <Formikform/>
+    <hr/><h1>Learn TodoApp</h1><br/>
+    <TodoHome/>
 
 
     </div>
