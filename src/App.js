@@ -10,6 +10,8 @@ import Form3exercise from "./components/formlearn/Form3exercise";
 import Formikform from "./components/formlearn/formikform";
 //Todo app
 import TodoHome from "./components/Todo/TodoHome";
+//P04Toggle 
+import P04Toggle from "./components/P04Toggle/P04Toggle";
 function App(){
 // Addred from pc
 const handleChildData=(e)=>{
@@ -36,6 +38,8 @@ const handleChildData=(e)=>{
     <Formikform/>
     <hr/><h1>Learn TodoApp</h1><br/>
     <TodoHome/>
+    <hr/><h1>Learn Toggle</h1><br/>
+    <P04Toggle/>
 
 
     </div>
