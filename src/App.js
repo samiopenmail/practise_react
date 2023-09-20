@@ -12,8 +12,12 @@ import Formikform from "./components/formlearn/formikform";
 import TodoHome from "./components/Todo/TodoHome";
 //P04Toggle 
 import P04Toggle from "./components/P04Toggle/P04Toggle";
+//Learn FAQS toggle
+import FAQS from "./components/P05FAQTOGGLE/FAQS";
 function App(){
 // Addred from pc
+
+
 const handleChildData=(e)=>{
   console.log("this is App.js and"+e);
 }
@@ -40,8 +44,9 @@ const handleChildData=(e)=>{
     <TodoHome/>
     <hr/><h1>Learn Toggle</h1><br/>
     <P04Toggle/>
-
-
+    <hr/><h1>Learn FAQS toggle</h1><br/>
+    <FAQS/>
+    
     </div>
     
     
