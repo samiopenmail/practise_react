@@ -14,6 +14,10 @@ import TodoHome from "./components/Todo/TodoHome";
 import P04Toggle from "./components/P04Toggle/P04Toggle";
 //Learn FAQS toggle
 import FAQS from "./components/P05FAQTOGGLE/FAQS";
+//Learn use effect 
+import P06UseEffectHook from "./components/P06UseEffectHook/P06UseEffectHook";
+//Learn P07DataFetch
+import P07DataFetch from "./components/P07DataFetch/P07DataFetch";
 function App(){
 // Addred from pc
 
@@ -46,6 +50,12 @@ const handleChildData=(e)=>{
     <P04Toggle/>
     <hr/><h1>Learn FAQS toggle</h1><br/>
     <FAQS/>
+    
+    <hr/><h1>Learn P06UseEffectHook</h1><br/>
+    <P06UseEffectHook/>
+    
+    <hr/><h1>Learn P07DataFetch</h1><br/>
+    <P07DataFetch/>
     
     </div>
     
